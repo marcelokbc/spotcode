@@ -1,11 +1,13 @@
-import React, {Fragment} from 'react';
-
-const App = () => {
-  return(
+import React, { Fragment } from 'react';
+import 'react-bulma-components/dist/react-bulma-components.min.css';
+import { Button } from 'react-bulma-components';
+import 'app.scss';
+ 
+function App() {
+  return (
     <Fragment>
-      Hello App
+      <Button color="primary">Testando o Bulma</Button>
     </Fragment>
-  )
+  );
 }
-
 export default App;
